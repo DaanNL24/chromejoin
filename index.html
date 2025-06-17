@@ -11,13 +11,14 @@
             align-items: center;
             justify-content: center;
             height: 100vh;
-            background-color: #f0f0f0;
+            background-color: #007BFF; /* Blauwe achtergrond */
             margin: 0;
+            color: white; /* Witte tekstkleur */
         }
         .button {
-            background-color: #007BFF; /* Blauwe achtergrond */
+            background-color: white; /* Witte achtergrond voor knoppen */
             border: none;
-            color: white;
+            color: #007BFF; /* Blauwe tekstkleur voor knoppen */
             padding: 30px; /* Grotere padding voor grotere knoppen */
             text-align: center;
             text-decoration: none;
@@ -27,13 +28,11 @@
             cursor: pointer;
             border-radius: 5px;
             width: 250px; /* Vaste breedte voor gelijke knoppen */
-            transition: background-color 0.3s;
+            transition: background-color 0.3s, color 0.3s; /* Transitie voor achtergrondkleur en tekstkleur */
         }
         .button:hover {
             background-color: #0056b3; /* Donkerder blauw bij hover */
-        }
-        .logo {
-            margin-bottom: 20px; /* Ruimte tussen logo en knoppen */
+            color: white; /* Witte tekstkleur bij hover */
         }
         .description {
             margin-top: 20px; /* Ruimte tussen knoppen en beschrijving */
@@ -44,15 +43,11 @@
 </head>
 <body>
 
-    <img src="https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/logogoogle.webp" alt="Google Logo" class="logo" width="150"> <!-- Vervang USERNAME en REPOSITORY door je GitHub gebruikersnaam en de naam van je repository -->
+    <a href="https://www.google.com" class="button">Zoeken</a>
     
-    <a href="https://www.google.com" class="button">Naar Google</a>
+    <a href="https://daannl24.github.io/chromejoin/progameren" class="button">Programen tab</a>
     
-    <a href="https://daannl24.github.io/chromejoin/progameren" class="button">Naar Programeren</a>
-    
-    <a href="https://daannl24.github.io/chromejoin/school" class="button">Naar School</a>
-    
-    <a href="#" class="button">Naar Andere Link</a>
+    <a href="https://daannl24.github.io/chromejoin/school" class="button">School tab</a>
 
     <div class="description">
         <p>Deze website bevat knoppen die je naar verschillende bronnen leiden.</p>
