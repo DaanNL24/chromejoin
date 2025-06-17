@@ -1,1 +1,62 @@
-index.html
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website met Knoppen</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        .button {
+            background-color: #007BFF; /* Blauwe achtergrond */
+            border: none;
+            color: white;
+            padding: 30px; /* Grotere padding voor grotere knoppen */
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 28px; /* Grotere tekstgrootte */
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 250px; /* Vaste breedte voor gelijke knoppen */
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #0056b3; /* Donkerder blauw bij hover */
+        }
+        .logo {
+            margin-bottom: 20px; /* Ruimte tussen logo en knoppen */
+        }
+        .description {
+            margin-top: 20px; /* Ruimte tussen knoppen en beschrijving */
+            font-size: 20px; /* Tekstgrootte voor beschrijving */
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/logogoogle.webp" alt="Google Logo" class="logo" width="150"> <!-- Vervang USERNAME en REPOSITORY door je GitHub gebruikersnaam en de naam van je repository -->
+    
+    <a href="https://www.google.com" class="button">Naar Google</a>
+    
+    <a href="https://daannl24.github.io/chromejoin/progameren" class="button">Naar Programeren</a>
+    
+    <a href="https://daannl24.github.io/chromejoin/school" class="button">Naar School</a>
+    
+    <a href="#" class="button">Naar Andere Link</a>
+
+    <div class="description">
+        <p>Deze website bevat knoppen die je naar verschillende bronnen leiden.</p>
+    </div>
+
+</body>
+</html>
