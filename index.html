@@ -11,33 +11,28 @@
             align-items: center;
             justify-content: center;
             height: 100vh;
-            background-color: #007BFF; /* Blauwe achtergrond */
+            background-color: #f0f0f0; /* Lichte achtergrondkleur */
             margin: 0;
-            color: white; /* Witte tekstkleur */
+            font-family: Arial, sans-serif; /* Mooie lettertype */
         }
         .button {
-            background-color: white; /* Witte achtergrond voor knoppen */
+            background-color: #4CAF50; /* Groene achtergrond voor knoppen */
             border: none;
-            color: #007BFF; /* Blauwe tekstkleur voor knoppen */
-            padding: 30px; /* Grotere padding voor grotere knoppen */
+            color: white; /* Witte tekstkleur voor knoppen */
+            padding: 40px 80px; /* Grotere padding voor grotere knoppen */
             text-align: center;
             text-decoration: none;
             display: inline-block;
-            font-size: 28px; /* Grotere tekstgrootte */
-            margin: 10px;
+            font-size: 36px; /* Grotere tekstgrootte */
+            margin: 20px;
             cursor: pointer;
-            border-radius: 5px;
-            width: 250px; /* Vaste breedte voor gelijke knoppen */
-            transition: background-color 0.3s, color 0.3s; /* Transitie voor achtergrondkleur en tekstkleur */
+            border-radius: 10px; /* Ronde hoeken */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Schaduw voor diepte */
+            transition: background-color 0.3s, transform 0.3s; /* Transitie voor achtergrondkleur en schaling */
         }
         .button:hover {
-            background-color: #0056b3; /* Donkerder blauw bij hover */
-            color: white; /* Witte tekstkleur bij hover */
-        }
-        .description {
-            margin-top: 20px; /* Ruimte tussen knoppen en beschrijving */
-            font-size: 20px; /* Tekstgrootte voor beschrijving */
-            text-align: center;
+            background-color: #45a049; /* Donkerder groen bij hover */
+            transform: scale(1.05); /* Vergroot de knop bij hover */
         }
     </style>
 </head>
@@ -48,10 +43,6 @@
     <a href="https://daannl24.github.io/chromejoin/progameren" class="button">Programen tab</a>
     
     <a href="https://daannl24.github.io/chromejoin/school" class="button">School tab</a>
-
-    <div class="description">
-        <p>Deze website bevat knoppen die je naar verschillende bronnen leiden.</p>
-    </div>
 
 </body>
 </html>
